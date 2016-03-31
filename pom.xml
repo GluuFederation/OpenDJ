@@ -25,7 +25,7 @@
 
     <groupId>org.forgerock.opendj</groupId>
     <artifactId>opendj-server-parent</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>3.0.0.gluu-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -99,6 +99,11 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>gluu</id>
+            <name>Gluu repository</name>
+            <url>http://ox.gluu.org/maven</url>
         </repository>
     </repositories>
 

@@ -23,6 +23,7 @@
   </parent>
 
   <artifactId>opendj-maven-plugin</artifactId>
+  <version>4.0.0-SNAPSHOT</version>
   <name>OpenDJ Maven Plugin</name>
   <description>
     Set of build tools for OpenDJ project.

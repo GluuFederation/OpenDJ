@@ -20,11 +20,11 @@
   <parent>
     <groupId>org.forgerock.opendj</groupId>
     <artifactId>opendj-server-parent</artifactId>
-    <version>4.0.0-SNAPSHOT</version>
+    <version>3.0.0.gluu-SNAPSHOT</version>
   </parent>
   <artifactId>opendj-server-legacy</artifactId>
   <packaging>jar</packaging>
-  <name>OpenDJ</name>
+  <name>Gluu-OpenDJ</name>
   <description>
     This module provides the OpenDJ server.
   </description>

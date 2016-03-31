@@ -20,12 +20,12 @@
     <parent>
         <groupId>org.forgerock.opendj</groupId>
         <artifactId>opendj-sdk-parent</artifactId>
-        <version>3.0.0.gluu-SNAPSHOT</version>
+        <version>4.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>org.forgerock.opendj</groupId>
     <artifactId>opendj-server-parent</artifactId>
-    <version>3.0.0.gluu-SNAPSHOT</version>
+    <version>4.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -145,8 +145,8 @@
 
     <properties>
         <product.name>Gluu-OpenDJ</product.name>
-        <product.name.lowercase>opendj</product.name.lowercase>
-        <opendj.core.test.jar.version>3.0.0.gluu-SNAPSHOT</opendj.core.test.jar.version>
+        <product.name.lowercase>gluu-opendj</product.name.lowercase>
+        <opendj.core.test.jar.version>4.0.0-SNAPSHOT</opendj.core.test.jar.version>
         <localized.jars.classifier>i18n</localized.jars.classifier>
     </properties>
 

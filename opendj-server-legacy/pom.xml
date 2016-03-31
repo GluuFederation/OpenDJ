@@ -25,7 +25,7 @@
   <artifactId>opendj-server-legacy</artifactId>
   <packaging>jar</packaging>
   <name>Gluu-OpenDJ</name>
-  <version>3.0.0.gluu</version>
+  <version>3.0.0.gluu-SNAPSHOT</version>
   <description>
     This module provides the OpenDJ server.
   </description>

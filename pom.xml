@@ -134,6 +134,12 @@
                 <artifactId>opendj-server</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.forgerock.opendj</groupId>
+                <artifactId>opendj-core</artifactId>
+                <version>4.0.0-20160329.095235-74</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

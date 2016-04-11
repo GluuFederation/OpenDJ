@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.forgerock.opendj</groupId>
         <artifactId>opendj-sdk-parent</artifactId>
-        <version>4.0.0-SNAPSHOT</version>
+        <version>4.0.0-20160329.095235-74</version>
     </parent>
 
     <groupId>org.forgerock.opendj</groupId>

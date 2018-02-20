@@ -30,13 +30,13 @@
   <parent>
     <groupId>org.forgerock.opendj</groupId>
     <artifactId>opendj-server-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.0.1.gluu</version>
   </parent>
   <artifactId>opendj-server-legacy</artifactId>
   <packaging>jar</packaging>
-  <name>OpenDJ</name>
+  <name>Gluu-OpenDJ</name>
   <description>
-    This module provides the OpenDJ server.
+    This module provides the Gluu OpenDJ server.
   </description>
   <inceptionYear>2010</inceptionYear>
 
@@ -60,7 +60,7 @@
     <jars.dir>${project.build.directory}/jars</jars.dir>
 
     <!-- Product information properties -->
-    <lowerCaseProductName>opendj</lowerCaseProductName>
+    <lowerCaseProductName>gluu-opendj</lowerCaseProductName>
     <patchFixIds />
     <isDebugBuild>false</isDebugBuild>
     <docHomepageUrl>http://opendj.forgerock.org/</docHomepageUrl>

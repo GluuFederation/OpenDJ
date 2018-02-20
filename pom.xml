@@ -35,7 +35,7 @@
 
     <groupId>org.forgerock.opendj</groupId>
     <artifactId>opendj-server-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.0.1.gluu</version>
 
     <packaging>pom</packaging>
 
@@ -102,6 +102,11 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>gluu</id>
+            <name>Gluu repository</name>
+            <url>http://ox.gluu.org/maven</url>
+        </repository>
     </repositories>
 
     <dependencyManagement>
@@ -146,7 +151,7 @@
     </modules>
 
     <properties>
-        <product.name>OpenDJ</product.name>
+        <product.name>Gluu-OpenDJ</product.name>
         <opendj.core.test.jar.version>3.0.0</opendj.core.test.jar.version>
     </properties>
 

@@ -30,7 +30,7 @@
     <parent>
         <groupId>org.forgerock.opendj</groupId>
         <artifactId>opendj-sdk-parent</artifactId>
-        <version>3.0.0</version>
+        <version>3.0.0.1.gluu</version>
     </parent>
 
     <groupId>org.forgerock.opendj</groupId>
@@ -140,19 +140,19 @@
     </dependencyManagement>
 
     <modules>
-        <module>opendj-maven-plugin</module>
-        <module>opendj-config</module>
-        <module>opendj-rest2ldap-servlet</module>
-        <module>opendj-server</module>
-        <module>opendj-server-example-plugin</module>
-        <module>opendj-legacy</module>
-        <module>opendj-server-legacy</module>
-        <module>opendj-dsml-servlet</module>
+        <module>../opendj-maven-plugin</module>
+        <module>../opendj-config</module>
+        <module>../opendj-rest2ldap-servlet</module>
+        <module>../opendj-server</module>
+        <module>../opendj-server-example-plugin</module>
+        <module>../opendj-legacy</module>
+        <module>../opendj-server-legacy</module>
+        <module>../opendj-dsml-servlet</module>
     </modules>
 
     <properties>
         <product.name>Gluu-OpenDJ</product.name>
-        <opendj.core.test.jar.version>3.0.0</opendj.core.test.jar.version>
+        <opendj.core.test.jar.version>3.0.0.1.gluu</opendj.core.test.jar.version>
     </properties>
 
 

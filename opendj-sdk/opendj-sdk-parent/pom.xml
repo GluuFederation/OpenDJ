@@ -85,6 +85,7 @@
             </dependency>
 
             <!-- OpenDJ SDK -->
+<!--
             <dependency>
                 <groupId>org.forgerock.opendj</groupId>
                 <artifactId>opendj-core</artifactId>
@@ -92,6 +93,7 @@
                 <version>${project.version}</version>
                 <scope>test</scope>
             </dependency>
+-->
         </dependencies>
     </dependencyManagement>
 

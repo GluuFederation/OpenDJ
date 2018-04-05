@@ -19,10 +19,10 @@
   <parent>
     <artifactId>opendj-server-parent</artifactId>
     <groupId>org.forgerock.opendj</groupId>
-    <version>3.0.0.gluu-SNAPSHOT</version>
+    <version>3.0.0.1.gluu-SNAPSHOT</version>
   </parent>
   <artifactId>opendj-config</artifactId>
-  <version>3.0.0.gluu-SNAPSHOT</version>
+  <version>3.0.0.1.gluu-SNAPSHOT</version>
   <name>OpenDJ Configuration API</name>
   <description>
     This module includes Configuration APIs for implementing LDAP Directory

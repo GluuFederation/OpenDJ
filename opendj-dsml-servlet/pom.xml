@@ -20,11 +20,11 @@
     <parent>
         <groupId>org.forgerock.opendj</groupId>
         <artifactId>opendj-server-parent</artifactId>
-        <version>3.0.0.1.gluu-SNAPSHOT</version>
+        <version>3.0.0.2.gluu-SNAPSHOT</version>
     </parent>
 
     <artifactId>opendj-dsml-servlet</artifactId>
-    <version>3.0.0.1.gluu-SNAPSHOT</version>
+    <version>3.0.0.2.gluu-SNAPSHOT</version>
     <name>OpenDJ DSML Gateway</name>
     <description>OpenDJ DSML Gateway</description>
     <packaging>war</packaging>

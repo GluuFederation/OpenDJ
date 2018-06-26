@@ -116,7 +116,7 @@ public class BcryptPasswordStorageScheme
   {
     try
     {
-      return BCrypt.checkpw(plaintextPassword.toString(), storedPassword.trim().toString());
+      return BCrypt.checkpw(plaintextPassword.toString(), storedPassword.toString().trim());
     }
     catch (IllegalArgumentException e)
     {

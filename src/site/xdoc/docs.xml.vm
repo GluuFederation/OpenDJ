@@ -99,7 +99,7 @@
    <p>
     A snapshot of the OpenDJ LDAP Toolkit 3 documentation
     is available for reference.
-    This documentation corresponds to the 3.0.0 Maven release,
+    This documentation corresponds to the 3.0.1 Maven release,
     which is available through the ForgeRock Maven repository.
    </p>
 
@@ -110,15 +110,15 @@
 
    <dl>
     <dt>Release Notes</dt>
-    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.0/doc/bootstrap/sdk-release-notes/"
+    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.1/doc/bootstrap/sdk-release-notes/"
          >HTML (with link to PDF inside)</a></dd>
 
     <dt>SDK Developer Guide, with Tools Reference</dt>
-    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.0/doc/bootstrap/dev-guide/"
+    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.1/doc/bootstrap/dev-guide/"
          >HTML (with link to PDF inside)</a></dd>
 
     <dt>Javadoc</dt>
-    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.0/apidocs/">HTML</a></dd>
+    <dd><a href="http://opendj.forgerock.org/opendj-ldap-toolkit/3.0.1/apidocs/">HTML</a></dd>
    </dl>
   </section>
  </body>

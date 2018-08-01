@@ -19,11 +19,11 @@
   <parent>
     <artifactId>opendj-server-parent</artifactId>
     <groupId>org.forgerock.opendj</groupId>
-    <version>3.0.0.2.gluu-SNAPSHOT</version>
+    <version>3.0.1.gluu</version>
   </parent>
 
   <artifactId>opendj-rest2ldap-servlet</artifactId>
-  <version>3.0.0.2.gluu-SNAPSHOT</version>
+  <version>3.0.1.gluu</version>
   <name>OpenDJ Commons REST LDAP Gateway</name>
   <description>
     Provides integration between the OpenDJ Commons REST Adapter and Servlet APIs.

@@ -401,7 +401,7 @@ public final class Upgrade
         deleteFile(new File(batDirectory, "dsframework.bat")));
 
     /** If the upgraded version is a non OEM one, migrates local-db backends to JE Backend, see OPENDJ-2364 **/
-    register("3.0.0",
+    register("3.0.1",
         conditionalUpgradeTasks(
           new UpgradeCondition() {
               @Override
@@ -453,7 +453,7 @@ public final class Upgrade
     );
 
     /** If the upgraded version is OEM, migrates local-db backends to PDB, see OPENDJ-2364 **/
-    register("3.0.0",
+    register("3.0.1",
       conditionalUpgradeTasks(
         new UpgradeCondition() {
           @Override
@@ -551,22 +551,22 @@ public final class Upgrade
       )
     );
 
-    /** Remove dbtest tool (replaced by backendstat in 3.0.0) - see OPENDJ-1791 **/
-    register("3.0.0",
+    /** Remove dbtest tool (replaced by backendstat in 3.0.1) - see OPENDJ-1791 **/
+    register("3.0.1",
             deleteFile(new File(binDirectory, "dbtest")),
             deleteFile(new File(batDirectory, "dbtest.bat")));
 
     /**
-     * Rebuild all indexes when upgrading to 3.0.0.
+     * Rebuild all indexes when upgrading to 3.0.1.
      *
-     * 1) matching rules have changed in 2.8.0 and again in 3.0.0- see OPENDJ-1637
+     * 1) matching rules have changed in 2.8.0 and again in 3.0.1- see OPENDJ-1637
      * 2) JE backend has been migrated to pluggable architecture.
      */
-    register("3.0.0",
+    register("3.0.1",
             rebuildAllIndexes(INFO_UPGRADE_TASK_11260_SUMMARY.get()));
 
     /** See OPENDJ-1742 */
-    register("3.0.0",
+    register("3.0.1",
         clearReplicationDbDirectory());
 
     /** See OPENDJ-2435 */

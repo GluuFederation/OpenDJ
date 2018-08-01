@@ -926,7 +926,7 @@ public final class UpgradeTasks
       /**
        * Finds all the existing JE backends and determines if they can be migrated or not. It will not be possible to
        * migrate a JE backend if the id2entry database name cannot easily be determined, which may happen because
-       * matching rules have changed significantly in 3.0.0.
+       * matching rules have changed significantly in 3.0.1.
        */
       @Override
       public void prepare(final UpgradeContext context) throws ClientException {
@@ -968,7 +968,7 @@ public final class UpgradeTasks
 
       /**
        * Renames the compressed schema indexes and id2entry in a 2.x environment to
-       * the naming scheme used in 3.0.0. Before 3.0.0 JE databases were named as follows:
+       * the naming scheme used in 3.0.1. Before 3.0.1 JE databases were named as follows:
        *
        * 1) normalize the base DN
        * 2) replace all non-alphanumeric characters with '_'
@@ -976,12 +976,12 @@ public final class UpgradeTasks
        * 4) append the index name.
        *
        * For example, id2entry in the base DN dc=white space,dc=com would be named
-       * dc_white_space_dc_com_id2entry. In 3.0.0 JE databases are named as follows:
+       * dc_white_space_dc_com_id2entry. In 3.0.1 JE databases are named as follows:
        *
        * 1) normalize the base DN and URL encode it (' '  are converted to %20)
        * 2) format as '/' + URL encoded base DN + '/' + index name.
        *
-       * The matching rules in 3.0.0 are not compatible with previous versions, so we need
+       * The matching rules in 3.0.1 are not compatible with previous versions, so we need
        * to do a best effort attempt to figure out the old database name from a given base DN.
        */
       @Override

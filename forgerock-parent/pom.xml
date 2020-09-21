@@ -158,7 +158,7 @@
         <mavenCleanPluginVersion>3.1.0</mavenCleanPluginVersion>
 
         <!-- maven-jar-plugin http://maven.apache.org/plugins/maven-jar-plugin/ -->
-        <mavenJarPluginVersion>3.0.0</mavenJarPluginVersion>
+        <mavenJarPluginVersion>2.6</mavenJarPluginVersion>
 
         <!-- maven-war-plugin http://maven.apache.org/plugins/maven-war-plugin/ -->
         <mavenWarPluginVersion>3.2.2</mavenWarPluginVersion>

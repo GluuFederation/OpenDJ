@@ -19,10 +19,10 @@
   <parent>
     <artifactId>opendj-server-parent</artifactId>
     <groupId>org.forgerock.opendj</groupId>
-    <version>3.0.1.gluu</version>
+    <version>4.2.1.gluu</version>
   </parent>
   <artifactId>opendj-server-example-plugin</artifactId>
-  <version>3.0.1.gluu</version>
+  <version>4.2.1.gluu</version>
   <name>OpenDJ Server Example Plugin</name>
   <description>
     An example OpenDJ Server plugin illustrating how custom components may be developed for OpenDJ.

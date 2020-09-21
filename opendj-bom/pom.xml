@@ -21,7 +21,7 @@
         <groupId>org.forgerock</groupId>
         <artifactId>forgerock-parent</artifactId>
         <version>2.0.10.gluu</version>
-        <relativePath />
+        <relativePath>../forgerock-parent</relativePath>
     </parent>
 
     <groupId>org.forgerock.opendj</groupId>

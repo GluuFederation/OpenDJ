@@ -40,14 +40,14 @@
             <groupId>org.forgerock.opendj</groupId>
             <artifactId>opendj-core</artifactId>
         </dependency>
-
+<!--
         <dependency>
             <groupId>org.forgerock.opendj</groupId>
             <artifactId>opendj-core</artifactId>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
-
+-->
         <dependency>
             <groupId>org.forgerock.commons</groupId>
             <artifactId>i18n-core</artifactId>
